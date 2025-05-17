@@ -1,0 +1,8 @@
+CREATE TABLE crud (
+  id INT NOT NULL IDENTITY(1,1),
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  gender VARCHAR(50) NOT NULL,
+  PRIMARY KEY (id)
+);
